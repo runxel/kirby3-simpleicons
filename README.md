@@ -5,7 +5,8 @@
  ![License](https://img.shields.io/github/license/runxel/kirby3-simpleicons)
 
 
-A plugin for Kirby 3 to get [simple-icons](https://github.com/simple-icons/simple-icons) in Kirbytext.
+A plugin for Kirby 3 to have an easy access to [simple-icons](https://github.com/simple-icons/simple-icons) in Kirbytext.  
+This plugin allows you to use almost any major brand icon you'd want, without having to source, optimize, and upload these logos yourself.
 
 ### Similar plugin
 
@@ -24,10 +25,13 @@ Choose one of the following:
 
 ## Usage
 
-As simple as using `(icon:github)` in a text.  
+As simple as using `(icon:brandname)` in a text.  
 Works wherever your text will be rendered as [Kirbytext](https://getkirby.com/docs/reference/text/kirbytags).  
 The svg will be served inline and inside a span with a fixed class of `.simpleicon`.  
 You can however specify your own, additional class like this `(icon:github class:myclass)`
+
+To see all available icons please go to [simpleicons.org](https://simpleicons.org/).  
+If you think there is an icon missing **DO NOT** request here, but at the [simple-icons repo](https://github.com/simple-icons/simple-icons/issues/new/choose).
 
 
 ## Configuration
