@@ -19,7 +19,7 @@ return array(
        if HTML code is passed into Html::tag is must be wrappend in an array:
     */
     $html = Html::tag('span', [$icon_svg], [
-      'class' => $icons
+      'class' => $cls
     ]);
 
     return $html;
