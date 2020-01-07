@@ -12,3 +12,4 @@ Thumbs.db
 # personal
 *.sublime-workspace
 *.sublime-project
+.vscode
