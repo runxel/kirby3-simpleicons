@@ -18,8 +18,8 @@ A plugin for Kirby 3 to get [simple-icons](https://github.com/simple-icons/simpl
 
 Choose one of the following:
 
-- `composer require runxel/simpleicons`; the plugin will automagically appear in `site/plugins`.
-- Download a zip of the latest release and put the contents into `site/plugins/simpleicons`.
+- Using composer: `composer require runxel/kirby-simpleicons`; the plugin will automagically appear in `site/plugins`.
+- Download a zip of the [latest release](https://github.com/runxel/kirby3-simpleicons/releases/latest) and put the contents into `site/plugins/simpleicons`.
 
 
 ## Usage
