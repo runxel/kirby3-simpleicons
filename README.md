@@ -31,7 +31,7 @@ The svg will be served inline and inside a span with a fixed class of `.simpleic
 You can however specify your own, additional class like this `(icon:github class:myclass)`
 
 To see all available icons please go to [simpleicons.org](https://simpleicons.org/).  
-If you think there is an icon missing **DO NOT** request here, but at the [simple-icons repo](https://github.com/simple-icons/simple-icons/issues/new/choose).
+If you think there is an icon missing **DO NOT** request it here, but at the [simple-icons repo](https://github.com/simple-icons/simple-icons/issues/new/choose).
 
 
 ## Configuration
