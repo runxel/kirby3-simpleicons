@@ -13,7 +13,7 @@ return array(
     $cls = $tag->class;
 
     $icon_string = 'vendor/simple-icons/simple-icons/icons/' . $brand . '.svg';
-    $icon_svg = file_get_contents($icon_string)
+    $icon_svg = file_get_contents($icon_string);
 
     /* https://getkirby.com/docs/reference/tools/html/tag
        if HTML code is passed into Html::tag is must be wrappend in an array:
