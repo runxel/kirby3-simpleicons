@@ -7,6 +7,7 @@
 
 A plugin for Kirby 3 to get [simple-icons](https://github.com/simple-icons/simple-icons) in Kirbytext.
 
+### Similar plugin
 
 "But I don't need _brands_!"  
 → Yeah, maybe [this](https://github.com/julien-gargot/kirby-plugin-fontawesome-icon) is what you're looking for then :)
@@ -18,7 +19,6 @@ A plugin for Kirby 3 to get [simple-icons](https://github.com/simple-icons/simpl
 Choose one of the following:
 
 - `composer require runxel/simpleicons`; the plugin will automagically appear in `site/plugins`.
-
 - Download a zip of the latest release and put the contents into `site/plugins/simpleicons`.
 
 
@@ -47,3 +47,8 @@ To assure the svgs won't look off, you need some proper styling via CSS, like th
     vertical-align: middle;
 }
 ```
+
+
+## Disclaimer
+
+This plugin is provided "as is" with no guarantee. If you find any issues, please [create a new issue](https://github.com/runxel/kirby3-simpleicons/issues/new).
