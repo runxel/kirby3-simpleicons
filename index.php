@@ -2,7 +2,7 @@
 /**
  * Kirby3 plugin to gain easy access to `simple-icons` inside Kirbytext.
  *
- * @version   0.1.2
+ * @version   0.1.3
  * @author    Lucas Becker <runxel>
  * @copyright Lucas Becker <runxel>
  * @link      https://github.com/runxel/kirby3-simpleicons
