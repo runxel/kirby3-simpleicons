@@ -1,0 +1,28 @@
+{
+    "name": "runxel/kirby-simpleicons",
+    "description": "Provides easy Kirbytext access to the 'simple icons' package.",
+    "type": "kirby-plugin",
+    "homepage": "https://github.com/runxel/kirby3-simpleicons",
+    "keywords": [
+        "svg",
+        "icons",
+        "kirby"
+    ],
+    "support": {
+        "issues": "https://github.com/runxel/kirby3-simpleicons/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Becker",
+            "email": "dev@wilu.be"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+        "simple-icons/simple-icons": "~1.20"
+    },
+    "extra": {
+        "installer-name": "kirby-simpleicons"
+    }
+}
