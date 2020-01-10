@@ -27,11 +27,13 @@ Choose one of the following:
 
 As simple as using `(icon:brandname)` in a text.  
 Works wherever your text will be rendered as [Kirbytext](https://getkirby.com/docs/reference/text/kirbytags).  
-The svg will be served inline and inside a span with a fixed class of `.simpleicon`.  
+The svg will be served _inline_ <sup id="a1">[[1]](#f1)</sup> and inside a span with a fixed class of `.simpleicon`.  
 You can however specify your own, additional class like this `(icon:github class:myclass)`
 
 To see all available icons please go to [simpleicons.org](https://simpleicons.org/).  
 If you think there is an icon missing **DO NOT** request it here, but at the [simple-icons repo](https://github.com/simple-icons/simple-icons/issues/new/choose).
+
+<span id="f1" style="color: #888">[1]</span> This is done so you can style it with a `fill` thru CSS. [↩](#a1) 
 
 
 ## Configuration
