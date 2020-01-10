@@ -20,7 +20,18 @@ This plugin allows you to use almost any major brand icon you'd want, without ha
 Choose one of the following:
 
 - Using composer: `composer require runxel/kirby-simpleicons`; the plugin will automagically appear in `site/plugins`.
-- Download a zip of the [latest release](https://github.com/runxel/kirby3-simpleicons/releases/latest) and put the contents into `site/plugins/simpleicons`.
+- Download a zip of the [latest release](https://github.com/runxel/kirby3-simpleicons/releases/latest) and put the contents into `site/plugins/simpleicons`.  
+  Please be aware you have to solve the [dependencies](#dependencies) on your own.
+
+Git Submodules is currently not supported, but you can try that anyway, of course :)
+
+
+### Dependencies
+
+Please be aware that this plugin uses the [simple-icons Composer package](https://packagist.org/packages/simple-icons/simple-icons).  
+If you're not using composer to install the plugin you have to download the icons by yourself.
+
+Even tho there are CDNs available I don't recommend to use them. SVG can have executable code and also the CDN can track users on your site.
 
 
 ## Usage
@@ -38,7 +49,7 @@ If you think there is an icon missing **DO NOT** request it here, but at the [si
 
 ## Configuration
 
-To assure the svgs won't look off, you need some proper styling via CSS, like the following:
+To assure the svgs won't look off, you need some proper styling via **CSS**, like the following:
 
 ```css
 .simpleicon { /* span */
