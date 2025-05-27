@@ -20,7 +20,7 @@
     ],
     "require": {
         "getkirby/composer-installer": "^1.1",
-        "simple-icons/simple-icons": "^11.5.0"
+        "simple-icons/simple-icons": ">=15"
     },
     "extra": {
         "installer-name": "kirby-simpleicons"
